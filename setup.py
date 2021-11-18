@@ -6,11 +6,12 @@ with open('README.md', 'r') as fh:
 setuptools.setup(
 	name = 'geojsonformat',
 	packages = ['geojsonformat'],
-	version = '0.0.2',
+	version = '0.0.3',
 	license='MIT',
 	description = 'format geojson',
 	long_description=long_description,
 	long_description_content_type='text/markdown',
+	install_requires=['click'],
 	author = 'Edgars Košovojs',
 	author_email = 'kosovojs@gmail.com',
 	url = 'https://github.com/kosovojs/geojsonformat',
